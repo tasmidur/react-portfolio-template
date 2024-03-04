@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Verdana:wght@300&display=swap");
+
+body {
+    font-family: Verdana, sans-serif;
+}
+
+main {
+    min-height: 80vh;
+}
+
+.navbar {
+    background: #ffffff;
+    box-shadow: 0px 2px 5px #aaaaaa;
+    height: 60px;
+}
+
+.navbar-toggler {
+    margin: 10px;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 0.5em;
+    height: 0.5em;
+    vertical-align: middle;
+    background-image: var(--bs-navbar-toggler-icon-bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding: 10px;
+}
+
+.navbar-nav a {
+    color: #212020;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 5px;
+}
+.navbar-nav-scroll{
+    background: #ffffff;
+    text-align:center;
+}
+
+.profile-div {
+    margin: 10px 10px 11px 10px;
+    width: 100%;
+}
+
+.about-div {
+    margin: 67px 10px 57px 3px;
+    width: 100%;
+}
+
+.social-container {
+    padding: 25px 50px;
+}
+
+.social-container a {
+    padding: 10px;
+}
+
+.experience-card {
+    border-left: 1px solid #eee;
+    transition: 0.3s;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.experience-container {
+    padding: 2px 16px;
+}
+
